@@ -2,7 +2,6 @@ import { useState } from 'react';
 import './App.css';
 import Routers from './Routers';
 import { UserContext } from './context/UserContext';
-import logo from './logo.svg';
 
 function App() {
 	const [user, setUser] = useState();
