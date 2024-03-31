@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+## Inspiration
+**What inspired us**
+When we think about the process of asking a question in university it felt daunting due to the amount of sources one would have to go through to find a satisfactory one, from joining multiple discord servers to asking around only for your question to be buried, this is our solution to that
+**Why did we go with StuQ as our project name?**
+It is a shortened handle for Student Questions as that was the foundational issue we were trying to address with this application. Throughout developing the application we started calling it StuQ to shorten it, but it ended up sticking after one of our developers said "Stuck? Use StuQ" and as its namesake suggests it StuQ with us.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## What it does
+The site offers you a range of uses. It serves as a forum/thread for students to access and find answers to their questions since as of now at the University of Regina it is very difficult to do so, let's say you want to know something about a course you'd have to navigate through multiple discords, asking people and look everywhere for that piece of information but with this, we hope to centralize the information allowing people to more easily find the answers. It can also help you find roommates/tutors through the use of the community that would be established through it, helping you sort out through the student body to find who you feel strongly about and giving you the resources to find tutors to help assist you in your academic success.   
 
-In the project directory, you can run:
+## How we built it
+We used Mongodb to implement a custom recommendation algorithm for students to find roommates with similar interests using MongoDB aggregation, we used NextJs with Typescript and tailwindcss for the frontend and used dynamic xyz for wallet generation with university email id, we used NodeJs and ExpressJs to create the backend APIs
 
-### `npm start`
+## Challenges we ran into
+- Since more than half of our team consisted of beginners so we were learning and building at the same time.
+- We had a lot of merge conflicts for both our frontend and backend repositories which held us back by a lot.
+- Initially, we were not able to send the email verification otp on time.
+- We were trying to implement push protocol for a decentralized chat feature but then came across a bug which is there in their library for NextJs which was a huge hurdle.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Accomplishments that we're proud of
+We are proud that we made a fully integrated web3 application. Whilst not all the discussed front end is fully developed we established all the needed API in the back end, given an extra day we can fully implement it. These accomplishments are:
+- Built a custom recommendation algorithm with MongoDB aggregate.
+- Built multiple apis that helped us to let students create forums, ask questions, find roommates
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## What we learned
+- We learned how MongoDB aggregation works.
+- We learned how we can use web2 socials to generate web3 wallets and make the user onboarding easier for everyone.
+- We learned how to work in a team and solve merge conflicts.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## What's next for StuQ
+**Road map for StuQ**
+So our hope with StuQ is that we can build it to be used Inter-University and implement the remaining discussed frontend features.
